@@ -1,2 +1,2 @@
 # sheephead-club-landing
-Landing page for Sheephead Club
+Landing page for Sheephead.Club
