@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+      body {
+        font-family: 'Playfair Display', serif;
+        background-color: #eae0d5; /* Parchment-like background color */
+        background-image: url('path_to_your_parchment_texture.jpg');
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .login-container {
+        background-color: #ffffffdd; /* Slightly transparent white */
+        border: 2px solid gold; /* Golden border */
+        border-radius: 10px;
+        padding: 40px;
+        text-align: center;
+        width: 350px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .login-container h2 {
+        color: #50394c; /* Dark purple, akin to the logo's text */
+      }
+
+      .form-input {
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f8f8f8; /* Off-white background */
+        color: #50394c; /* Text color to match the logo's theme */
+      }
+
+      .form-button {
+        background-color: #4a4e69; /* Dark blue, resembling the logo's color palette */
+        color: #fff;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .form-button:hover {
+        background-color: #22223b; /* A darker shade for hover effect */
+      }
+      
+      /* Additional styles for decorative elements */
+      /* ... */
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <img src="sheephead-club-logo.png" alt="Game Logo" style="width: 200px; margin-bottom: 20px;">
+      <h2>Login</h2>
+      <form class="login-form" action="" method="post">
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          class="form-input"
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <button class="form-button" type="submit">Login</button>
+      </form>
+      <p>Forgot your password? <a href="#">Reset it here.</a></p>
+    </div>
+  </body>
+</html>
