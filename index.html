@@ -19,14 +19,22 @@
         margin: 0;
         padding: 0;
         font-family: "Playfair Display", serif;
-        background-color: #fcf2dd; /* Cream color for the body background */
-        color: #07111a; /* Dark blue for the body text */
+        background: linear-gradient(
+          to left,
+          #c0a080 0%,
+          #c0a080 0%,
+          #fcf2dd 20%,
+          #fcf2dd 80%,
+          #c0a080 100%
+        );
+        color: #07111a;
         font-size: large;
       }
 
       .main-content {
         text-align: center;
         max-width: 700px;
+        width: 75%;
         margin: 0 auto;
         display: block;
         font-weight: 400;
@@ -87,6 +95,21 @@
       <div class="tagline">
         Where Sheephead's Legacy Meets Modern Fellowship
       </div>
+
+      <div class="site-name"><h3>Coming Soon</h3></div>
+
+      <p>
+        Be the first to get updates on our official launch, upcoming features,
+        and other insider benefits. Sign up now and stay ahead in the game!
+      </p>
+
+      <!-- Call to Action -->
+      <button
+        class="cta-button"
+        onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSdqACG6q7p7hmLHy-mbPxE2t7oXzbi0ps5dUgeSn_LzRmpYCA/viewform?usp=sf_link'"
+      >
+        Sign Up to Get Notified
+      </button>
 
       <p>
         Unite with fellow enthusiasts at Sheephead.Club – A Future Home for
@@ -153,11 +176,6 @@
           tradition and innovation.
         </p>
       </div>
-
-      <p>
-        Be the first to get updates on our official launch, upcoming features,
-        and other insider benefits. Sign up now and stay ahead in the game!
-      </p>
 
       <!-- Call to Action -->
       <button
